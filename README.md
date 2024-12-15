@@ -11,7 +11,7 @@ The model is a binary classifier that predicts bioactivity, returning:
 
 The example dataset focuses on the **5-HT7 receptor**, which demonstrates the workflow but can be adapted to predict bioactivity for any biological target. Notably, the 5-HT7 dataset includes a relatively small number of molecules (177 after preprocessing) and exhibits some class imbalance (active vs. inactive). Consequently, predictions may be suboptimal. Thus, this toolkit serves as an example of a fingerprints-based binary classifier. For other biological targets, different models might perform better. Therefore, it’s crucial to evaluate and select the most suitable estimator for each target.
 
-<img src="./predictions/fps_esti_schema.png" alt="Opis obrazu"/>
+<img src="./predictions/fps_esti_schema.png"/>
 
 ---
 
@@ -22,7 +22,7 @@ To run the `ml_launcher.py` script, ensure the following files are in the same d
 - `best_rfc_model.joblib` (the trained estimator).  
 - `example.csv` (the file containing molecules to be analyzed).  
 
-## Installation Requirements  
+## Requirements Installation   
 
 If necessary, install the required Python packages using the following command:  
 
