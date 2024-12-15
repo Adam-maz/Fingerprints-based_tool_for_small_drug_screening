@@ -42,3 +42,4 @@ Once the required packages are installed, you can run the script in your local e
 4. **best_rfc_model.joblib** - trained and saved estimator.  
 5. **example.csv** - example file with molecules for prediction.  
 6. **ml_launcher.py** - python script for running predictions.
+7. **fps_esti_schema.png** - scheme.
