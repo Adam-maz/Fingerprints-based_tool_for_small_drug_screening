@@ -33,7 +33,7 @@ class Predictor:
         if self.predict_df is None:
             raise ValueError("Prediction data not loaded. Call `predict_data_importer` first.")
 
-        morgan_gen = GetMorganGenerator(radius=1, fpSize=1024)
+        morgan_gen = GetMorganGenerator(radius=1, fpSize=4096)
         fingerprints = []
 
         for sm in self.predict_df["smiles"]:
