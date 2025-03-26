@@ -39,7 +39,7 @@ Once the required packages are installed, you can run the script in your local e
 1. **5ht7_IC50.csv** - raw dataset from ChEMBL.  
 2. **5ht7_Ki.csv** - raw dataset from ChEMBL.  
 3. **ml_notebook.ipynb** - Jupyter Notebook containing the model definition and training pipeline.  
-4. **best_rfc_model.joblib** - trained and saved estimator.  
+4. **best_xgb_model.joblib** - trained and saved estimator.  
 5. **example.csv** - example file with molecules for prediction.  
 6. **ml_launcher.py** - python script for running predictions.
 7. **fps_esti_schema.png** - scheme.
